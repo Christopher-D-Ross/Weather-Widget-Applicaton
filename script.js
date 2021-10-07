@@ -29,7 +29,7 @@ let audio5 = new Audio('scream6.m4a');
 
 
 function loadAtlanta() {
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=Atlanta&appid=7983f9630bd1335bc5529b4c48cf145a')
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Atlanta&appid=${apiKey}`)
     .then(function(response) {
      // Parse the JSON into an actual JS object
     return response.json();
@@ -48,7 +48,7 @@ function loadAtlanta() {
 }
 
 function loadChicago() {
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=Chicago&appid=7983f9630bd1335bc5529b4c48cf145a')
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Chicago&appid=${apiKey}`)
     .then(function(response) {
      // Parse the JSON into an actual JS object
     return response.json();
@@ -67,7 +67,7 @@ function loadChicago() {
 }
 
 function loadCharlotte() {
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=Charlotte&appid=7983f9630bd1335bc5529b4c48cf145a')
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Charlotte&appid=${apiKey}`)
     .then(function(response) {
      // Parse the JSON into an actual JS object
     return response.json();
@@ -86,7 +86,7 @@ function loadCharlotte() {
 }
 
 function loadOhio() {
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=Cleveland&appid=7983f9630bd1335bc5529b4c48cf145a')
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Cleveland&appid=${apiKey}`)
     .then(function(response) {
      // Parse the JSON into an actual JS object
     return response.json();
@@ -105,7 +105,7 @@ function loadOhio() {
 
 function loadTemp() {
     let city = input.value;
-    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=7983f9630bd1335bc5529b4c48cf145a`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
     fetch(api)
     .then(function(response) {
      // Parse the JSON into an actual JS object
