@@ -146,6 +146,15 @@ function theDepths() {
     ohio.style.color = "orange";
     navi.style.backgroundColor = "purple"
     bottomblock.style.backgroundColor = "darkred";
+    input.style.fontFamily = "Creepster";
+    input.style.fontSize = "25px";
+    submit.style.backgroundColor = "lime";
+    submit.style.color = "darkred";
+    submit.style.fontFamily = "Creepster";
+    temp.style.border = "3px solid blue";
+    rnc.style.border = "3px solid lime";
+    humid.style.border = "3px solid blue";
+    wind.style.border = "3px solid lime";
     audio.play();
     audio2.play();
     audio3.play();
@@ -170,6 +179,15 @@ function goBack() {
     ohio.style.color = "#00AAFF";
     navi.style.backgroundColor = "rgba(0, 0, 0, .60)";
     bottomblock.style.backgroundColor = "rgba(0, 0, 0, .60)";
+    input.style.fontFamily = "Dosis";
+    input.style.fontSize = "20px";
+    submit.style.backgroundColor = "rgba(0, 0, 0, .60)";
+    submit.style.color = "rgba(255, 255, 255, .60)";
+    submit.style.fontFamily = "Dosis";
+    temp.style.border = "3px solid rgba(255, 255, 255, .60)";
+    rnc.style.border = "3px solid rgba(255, 255, 255, .60)";
+    humid.style.border = "3px solid rgba(255, 255, 255, .60)";
+    wind.style.border = "3px solid rgba(255, 255, 255, .60)";
     audio.pause();
     audio2.pause();
     audio3.pause();
