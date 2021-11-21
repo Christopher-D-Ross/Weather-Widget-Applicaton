@@ -1,5 +1,5 @@
 # Weather-Widget-Applicaton
-## This is a weather widget application for a specified city.
+## This is a weather widget application that displays the weather forecast for a specified city.
 #### It features a "Happy Halloween" button that toggles the pages theme from the normal layout to a halloween themed layout.
 
 ![image](https://user-images.githubusercontent.com/88689628/142744467-a144ebd2-80e4-4192-8ba5-2c5e326f5676.png)
